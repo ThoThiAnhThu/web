@@ -1,21 +1,31 @@
 .bar{
-    height:30px;
+    height:56px;
     width: 1200px;
     background-color: gray;
     color: black;
     position: relative;
-    text-align: left;
+    display: flex;
    }
 
-.fa fa-facebook{
-    position: absolute;
-   }
-.facebook-icon-box{
-    height: 20px;;
-    width: 20px;
-    background-color: rgb(160, 160, 234);
-    padding-top: 5px;
+.facebook-home-page-link {
+    text-decoration: none;
 }
+.facebook-icon-box{
+    margin-top: 5%;
+    margin-left: 20px;
+    height: 90%;
+    width: 54px;
+    background-color: #3578E5;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 27px;
+}
+
+.facebook-icon{
+    padding-top: 10px;
+    font-size: 200% !important;
+}
+
 .fa fa-search{
     position: absolute;
 }
