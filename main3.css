@@ -1,6 +1,6 @@
 .bar{
     height:56px;
-    width: 1200px;
+    width: 100%;
     background-color: gray;
     color: black;
     position: relative;
@@ -25,17 +25,18 @@
     padding-top: 10px;
     font-size: 200% !important;
 }
-
-.fa fa-search{
-    position: absolute;
-}
-.box {
-    position: absolute;
-    height: 80%;
+.search-box{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 70%;
     width: 200px;
-    background-color: rgb(58, 56, 56);
-    margin-left: 5%;
-    margin-bottom: 5%;
+    background-color: rgb(173, 169, 169);  
+    border-radius: 27px;  
 }
+.fa fa-search{
+    font-size: 200px;
+    
 
+    
+}
          
