@@ -26,17 +26,28 @@
     font-size: 200% !important;
 }
 .search-box{
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 20px;
     height: 70%;
     width: 200px;
     background-color: rgb(173, 169, 169);  
     border-radius: 27px;  
 }
-.fa fa-search{
-    font-size: 200px;
-    
-
-    
+.search-icon{
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.icon-box{
+    margin-top: 8px;
+    margin-left: 20px;
+    height: 70%;
+    width: 200px;
+    background-color:rgb(173, 169, 169);  
+}
+.bi bi-house-door{
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 10px;
 }
          
