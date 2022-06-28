@@ -1,4 +1,7 @@
-.bar{
+.all{
+    display: flex;
+    flex-direction: column ;
+}.bar{
     height:56px;
     width: 100%;
     background-color: gray;
@@ -6,7 +9,6 @@
     position: relative;
     display: flex;
    }
-
 .facebook-home-page-link {
     text-decoration: none;
 }
@@ -24,7 +26,6 @@
 .facebook-icon{
     padding-top: 20%;
     font-size: 200% !important;
-
 }
 .search-box{
     display: block;
@@ -52,4 +53,81 @@
     font-size: 25px;
     padding-top: 4px;
 }
+.house-icon:hover{
+    background-color: yellow;
+   }
+.avatar-box{
+    height: 70%;
+    width: 7%;
+    border-radius: 30px;
+    background-color: rgb(152, 189, 245);
+    margin-left: 30px;
+    margin-top: 8px;
+    display: flex;
+}
+.avatar{
+    height: 80%;
+    width: 40%;
+    border-radius: 50%;
+    margin: 4px;
+}
+.avatar-box p{
+    color: blue;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu-box{
+    background-color: rgb(173, 169, 169);
+    height:75%;
+    width: 3%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: center;
+}
+.menu-icon{
+    display: block;
+    font-size: 20px;
+    padding-top: 8px; 
+}
+.messenger-box{
+    background-color: rgb(173, 169, 169);
+    height:75%;
+    width: 3%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: center;
+}
+.messenger-icon{
+    display: block;
+    font-size: 20px;
+    padding-top: 8px; 
+}
+.notification-box{
+    background-color: rgb(173, 169, 169);
+    height:75%;
+    width: 3%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: center;
+}
+.notification-icon{
+    display: block;
+    font-size: 20px;
+    padding-top: 8px; 
+}
+.notification-box:hover{
+    background-color:red ;
+    border-radius: 100%;
+}
+.cover-part{
+    background-color: rgb(37, 36, 36);
+    height:1000px;
+    width:500%;
+}
+
 
